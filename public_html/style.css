@@ -1,0 +1,350 @@
+	#error{
+	    background-color: green;
+	}
+	input:valid{
+	    background-color:white;
+	}
+	@font-face{
+		font-family: fontt;
+		src: url("bignoodletoo.woff");
+	}
+	body{
+	    background-color: #04356C;
+	    font-family: helvetica;
+	    z-index: 1;
+	    max-width: 1000px;
+	    margin-left: auto;
+        margin-right: auto;
+        min-width: 600px;
+        color: black;
+        font-size:14px;
+        
+	}
+	table{
+	    width:102%;
+	    min-width:1000px;
+	    text-align:center;
+	    margin-left: -12px;
+	}
+    form{
+        background-color:#689AD3;
+    }
+	h1{
+	    background-color:#689AD3;
+	   position:absolute;
+	   top:30px;
+	   width:100%;
+	    max-width: 960px;
+	    min-width: 600px;
+		font-family: fontt;
+		margin-left:40px;
+		z-index:3;
+	}
+	h1 a{
+      float: left;
+      color: #04356C;
+      text-align: center;
+      padding-left: 15px;
+      padding-right:15px;
+      font-size: 30px;
+  
+	}
+	h1 a:hover{
+	    background-color: #04356C;
+	    color:white;
+	    transition:.5s;
+	    
+	}
+	.dropdown:hover .unselecteddrop{
+	    	    background-color: #04356C;
+	    color:white;
+	}
+	.unselected:active{
+	    background-color: white;
+	    transition:.1s;
+	}
+	
+    .dropdown{
+        float:left;
+    }
+	.dropdown-content{
+
+	    display: none;
+	    padding: 6px;
+	    background-color:#689AD3;
+        position: absolute;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 5;
+
+	}
+	.dropdown-content a{
+	    float:none;
+	    display:block;
+	    text-align:left;
+	    
+	}
+		.dropdown:hover .dropdown-content{
+	    display: block;
+	}
+    .dropdown:active .dropdown-content{
+	    display: block;
+	}
+
+	p{
+	    background-color: #04356C;
+	    color: white;
+	}
+	a{
+		color:black;
+		text-decoration: none;
+	}
+	.selected {
+	    color: white;
+	    background-color:#04356C;
+	   
+	}
+	.indent{
+        list-style-position: inside;
+    }
+	.menuImage{
+	    min-width: 500px;
+	    display: block;
+	    width:100%;
+	    padding-top:0;
+	    z-index: -1;
+        padding-left: 0;
+        padding-right: 0;
+	}
+	.columns {
+	    max-width:29%;
+	    min-width:100px;
+	    height: 150px;
+	    text-align:center;
+	    border-style: solid;
+        border-width: 6px;
+        border-color:#04356C;
+	    background-color: #689AD3;
+	    display:inline-block;
+	   
+
+	}
+    .container {
+      position: relative;
+      text-align: center;
+    }
+    
+    .bottom-left {
+      position: absolute;
+      bottom: -100px;
+      left: 0;
+      padding-bottom: 40px;
+      text-align:right;
+	  width: 100%;
+	  background-image: linear-gradient(to bottom, rgba(255,0,0,0), #04356C);
+	  
+	    
+    }
+    .subtitle{
+      position: absolute;
+      bottom: -40px;
+      left: 0;
+      font-family: helvetica;
+	  background-color: transparent;
+	  color: white;
+	  font-size: 40px;
+	  text-align:right;
+	  width: 100%;
+	  z-index: 1;
+	  min-width:800px;
+    }
+    .space{
+       height: 40px;
+        
+    }
+    .lightBlue{
+        background-color:#689AD3;
+        display:block;
+        margin-top:3px;
+        text-align: left;
+        height: 300px;
+    }
+    .rightLean{
+        float:right;
+    }
+        .leftLean{
+        float:left;
+    }
+    #learn{
+        height: 600px;
+    }
+	.button{
+	    position:relative;
+	    font-family:fontt;
+	    font-size: 19px;
+	    padding: 20px 50px 25px;
+	    color:white;
+	    top: 35px;
+        text-align: center;
+        
+        	    background-image: url("button.jpg");
+        z-index: 2;
+	   
+	}
+	.button:active{
+	    padding-top: 12px;
+	    padding-bottom: 25px;
+	}
+	.footer{
+	   width:100%;
+	   min-width: 1000px;
+	   text-align:left;
+	   padding-bottom:100px;
+	   background-color:#689AD3;
+	   margin-left:0;
+	   color:black;
+	}
+	#oversized{
+		width:50%;
+	}
+	#game{
+	    position:absolute;
+	    top:200px;
+	    left: 20px;
+		text-align: center;
+		background-color: transparent;
+		z-index:2;
+	}
+	#Title{
+	    position: absolute;
+	    font-family: helvetica;
+	    font-weight: bold;
+	    background-color: transparent;
+	    color: white;
+	    font-size: 100px;
+	    z-index: 1;
+	}
+	#subsubtitle{
+	    position:relative;
+	    font-family: helvetica;
+	    font-weight: bold;
+	    background-color: transparent;
+	    color: white;
+	    font-size: 50px;
+	    z-index: 1;
+	}
+	#homepage{
+	    display:block;
+        margin-top: -100px;
+	}
+#logo{
+    position:absolute;
+    top:-75px;
+    right:0;
+    height:200px;
+}
+#whoosh{
+    position:absolute;
+    left:17%;
+    top:33%;
+    height:30%;
+}
+@media screen and (max-width: 400px){
+
+    	body{
+        min-width: 000px;
+        color: black;
+        font-size:28px;
+        background-color:#689AD3;
+	}
+	    	h1{
+	    background-color:#689AD3;
+	   position:absolute;
+	   top:-40px;
+	   width:100%;
+	    max-width: 960px;
+	    min-width: 0px;
+		font-family: fontt;
+		margin-left:0px;
+		z-index:3;
+		padding:0;
+	}
+	h1 a{
+
+	    font-size: 25px;
+	    padding:5px;
+	    
+	}
+	#logo{
+	    display: none;
+	}
+		.columns {
+	    width:100%;
+	    
+	    height: 400px;
+	    min-width:400px;
+	    text-align:center;
+	    border-style: solid;
+        border-width: 4px;
+        border-color:#04356C;
+	    background-color: #689AD3;
+	    display:block;
+	   
+
+	}
+	table{
+	    width:100%;
+	    min-width:100px;
+	    display:block;
+	    z-index:3;
+	}
+	#Title{
+	    top:150px;
+	    font-size: 40px;
+	    min-width:0px;
+	}
+	.subtitle{
+	    font-size:20px;
+	    min-width:0px;
+	    top:210px;
+	}
+	#subsubtitle{
+	    display:inline;
+	}
+    .menuImage{
+	    
+	    width:100%;
+	    padding-top:0;
+	    z-index: -2;
+        padding-left: 0;
+        padding-right: 0;
+	}
+	#homepage{
+	    margin-top:0px;
+	    min-width:0;
+	}
+    .footer{
+        margin-top:220px;
+        background-color:#689AD3;
+        top:1000px;
+        min-width:0;
+        
+    }
+    .bottom-left{
+        width:92%;
+        padding-bottom:0;
+        background-image:none;
+    }
+    .space{
+        height:200px;
+    }
+
+    text{
+        background-color:#689AD3;
+    }
+       .rightLean{
+        display:none;
+    }
+        .leftLean{
+        display:none;
+    }
+}
