@@ -1,0 +1,26 @@
+@font-face{
+	font-family: news;
+	src: url(news.otf);
+}
+body{
+	padding-top: 150px;
+	font-family: helvetica;
+
+}
+#title{background-color: red;
+	font-family: news;
+color:white;}
+#newsweek{
+	font-size:50px;
+
+}
+.subtitle{
+		font-family: news;
+		color: black;
+}
+button{
+	height: 30px;
+}
+li{
+	line-height: 20px;
+}
